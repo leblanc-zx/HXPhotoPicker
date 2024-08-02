@@ -3,7 +3,7 @@
 //  HXPhotoPicker
 //
 //  Created by Slience on 2021/8/31.
-//
+//周祥测试
 
 import UIKit
 import AVFoundation
@@ -58,6 +58,7 @@ class CameraResultViewController: UIViewController {
         if type == .photo {
             imageView = UIImageView(image: image)
             imageView.clipsToBounds = true
+            //测试冲突
             imageView.contentMode = .scaleAspectFill
             view.addSubview(imageView)
         }else {
